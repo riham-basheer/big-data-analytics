@@ -1,17 +1,20 @@
 # Big Data Analytics
 
-**Technologies:** Python, Hadoop Streaming, MapReduce, PySpark (Spark SQL, RDDs), Spark ML, NLTK, Google Colab  
+**Technologies:** Python, Hadoop Streaming, MapReduce, PySpark (Spark SQL, RDDs), Spark ML, NLTK, Google Colab
+
+## About
+Projects focused on building scalable data pipelines and extracting insights from large-scale, real-world datasets. Covers the full analytics lifecycle — from distributed data processing with Hadoop and Spark to feature engineering, NLP, and machine learning on messy, semi-structured data.
 
 ## Projects
 
-| # | Project | Type | Technologies | Key Result |
-|---|---------|------|--------------|------------|
-| 1 | Reddit Comment Analysis | Hadoop Streaming, MapReduce, NLTK | Processed 53M comments (31GB); optimized NLTK bottleneck with heap queue |
-| 2 | League of Legends Match Analytics | PySpark, Riot Games API | Champion synergy detection via combinatorial pairing algorithm |
+| # | Project | Technologies | Highlights |
+|---|---------|--------------|------------|
+| 1 | Reddit Comment Analysis | Hadoop Streaming, MapReduce, NLTK | 53M comments processed; NLTK bottleneck solved with heap queue optimization |
+| 2 | League of Legends Match Analytics | PySpark, Riot Games API | Champion synergy detection via combinatorial pairing on nested JSON |
 
-## Key Skills Developed
-- Distributed data processing with Hadoop and Spark ecosystems
-- Building scalable MapReduce pipelines for semi-structured data
-- Feature engineering from nested JSON and unstructured text
+## Skills
+- Distributed data processing at scale (Hadoop MapReduce, Spark)
+- Building ETL pipelines for semi-structured and nested data
+- Feature engineering from unstructured text and JSON
 - Performance optimization under resource constraints
-- ML model training and evaluation on imbalanced real-world data
+- Training and evaluating ML models on imbalanced real-world data
